@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #293241;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header
+{
+    background-color: #293241;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+
+}
+
+header li
+{
+    display: inline;
+    text-decoration: none;
+    padding-left: 45px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+header li a
+{
+    color: #e0fbfc;
+    text-decoration: none;
+    transition: .3s ease;
+}
+header li a:hover
+{
+    color: #98c1d9;
+}
+header .login
+{
+    color: #ee6c4d;
+    float: right;
+    margin-right: 5cm;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 120%;
+    position: relative;
+    
+    right: -20px;
+    outline: none;
+    text-decoration: none;
+}
+
+header .login:hover
+{
+    color: #98c1d9;
+
+}
+.login:visited
+{
+    text-decoration: none;
+    color: #e0fbfc;
+}
+.logo
+{
+    width: 180px;
+    float: left;
+    size: 40%;
+    position: relative;
+    top: -5px;
+
+}
+/* pour les animation de la header */
+.input_box_pass1
+{
+    position: relative;
+    left: 17px;
+    font-size: 60%;
+    height: 40px;
+    margin-bottom: 3px;
+    font-family: 'Antic Slab', serif;
+    width: 8%;
+    position: relative;
+    top: -50px;
+}
+.input_box_email
+{
+    position: relative;
+    left: 35px;
+    font-size: 60%;
+    height: 40px;
+    margin-bottom: 3px;
+    font-family: 'Antic Slab', serif;
+    width: 8%;
+    position: relative;
+    top: -50px;
+}
+.details_pass1
+{
+    position: relative;
+    right: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+    color: #d3d3d3;
+    position: relative;
+    top: -50px;
+}
+.details_email
+{
+    position: relative;
+    right: 22px;
+    font-family: 'RocknRoll One', sans-serif;
+    color: #d3d3d3;
+    top: -50px;
+}
+form
+{
+    position: relative;
+    top: 9cm;
+}
+.login_info
+{
+    font-family: 'RocknRoll One', sans-serif;
+    color: #d3d3d3;
+    font-size: 300%;
+    position: relative;
+    top: 7cm;
+    left: 1cm;
+}
+.register_btn
+{
+    border-radius: 4px;
+    font-family: 'Antic Slab', serif;
+    background-color: #e0fbfc;
+    border: none;
+    width: 5%;
+    font-size: 70%;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    height: 0.5cm;
+}
+.register_here
+{
+    font-family: 'RocknRoll One', sans-serif;
+    color: #d3d3d3;
+    position: relative;
+    top: 250px;
+    left: 40px;
+    padding: 10px;
+}
+.link_1
+{
+    font-family: 'RocknRoll One', sans-serif;
+    text-decoration: none;
+    color: #98c1d9;
+    position: relative;
+    top: 240px;
+    padding: 10cm;
+    left: 30px;
+
+}

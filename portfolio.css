@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #293241;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header
+{
+    background-color: #293241;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+
+}
+
+header li
+{
+    display: inline;
+    text-decoration: none;
+    padding-left: 45px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+header li a
+{
+    color: #e0fbfc;
+    text-decoration: none;
+    transition: .3s ease;
+}
+header li a:hover
+{
+    color: #98c1d9;
+}
+header .login
+{
+    color: #ee6c4d;
+    float: right;
+    margin-right: 5cm;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 120%;
+    position: relative;
+    top: -2px;
+    right: -20px;
+    outline: none;
+    text-decoration: none;
+}
+
+header .login:hover
+{
+    color: #98c1d9;
+
+}
+.login:visited
+{
+    text-decoration: none;
+    color: #e0fbfc;
+}
+.logo
+{
+    width: 180px;
+    float: left;
+    size: 40%;
+    position: relative;
+    top: -5px;
+
+}
+/* pour les animation de la header */
+.description
+{
+    position: center;
+    color: #023e8a;
+    width: 100%;
+    top: 10px;
+    font-size: 200%;
+    font-family: 'Antic Slab', serif;
+    background-color: #e0fbfc ;
+    margin-left: 0px;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+.image_g2a
+{
+    height:180px;
+    width: 600px;
+    background: url("1280px-Logo_g2a_icon.svg.png");
+    border-radius: 20px;
+    background-size: 100%;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    top: 100px;
+}
+.image_g2a:hover
+{
+    background-size: 150%;
+    background-position: center;
+}
+.image_instant
+{
+    height:180px;
+    width: 600px;
+    background: url("instant.png");
+    border-radius: 20px;
+    background-size: 100%;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    top: -70px;
+    left: 1200px;
+}
+.image_instant:hover
+{
+    background-size: 150%;
+    background-position: center;
+}
+.description1
+{
+    color: #023e8a;
+    position: relative;
+    top: -180px;
+    font-size: 200%;
+    font-family: 'Antic Slab', serif;
+    background-color: #e0fbfc ;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+.cybertek
+{
+    height:110px;
+    width: 600px;
+    background: url("Cybertek.png");
+    border-radius: 20px;
+    background-size: 100%;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    top: -220px;
+    left:650px;
+}
+.cybertek:hover
+{
+    background-size: 150%;
+    background-position: center;
+}
+/* pour les animation de des photo avec des lien pour les sites  */

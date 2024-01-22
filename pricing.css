@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #293241;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header
+{
+    background-color: #293241;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+
+}
+
+header li
+{
+    display: inline;
+    text-decoration: none;
+    padding-left: 45px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+header li a
+{
+    color: #e0fbfc;
+    text-decoration: none;
+    transition: .3s ease;
+}
+header li a:hover
+{
+    color: #98c1d9;
+}
+header .login
+{
+    color: #ee6c4d;
+    float: right;
+    margin-right: 5cm;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 120%;
+    position: relative;
+    top: -2px;
+    right: -20px;
+    outline: none;
+    text-decoration: none;
+}
+
+header .login:hover
+{
+    color: #98c1d9;
+
+}
+.login:visited
+{
+    text-decoration: none;
+    color: #e0fbfc;
+}
+.logo
+{
+    width: 180px;
+    float: left;
+    size: 40%;
+    position: relative;
+    top: -5px;
+
+}
+/* pour les animation de la header */
+table
+{
+    position: absolute;
+    left: 50%;
+    top:50%;
+     transform: translate(-50%,-50%);
+     border-collapse: collapse;
+     width: 800px;
+     height: 200px;
+     border : 1px solid #98c1d9;
+     box-shadow: 2px 2px 12px #98c1d9 ,-1px -1px 8px #98c1d9;
+}
+tr
+{
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    font-family: 'RocknRoll One', sans-serif;
+}
+th,td
+{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid;
+    font-family: 'Antic Slab', serif;
+}
+.table_header
+{
+    background-color: #e0fbfc;
+    color: #3d5a80;
+}
+tr:hover
+{
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px #98c1d9 ,-1px -1px 8px #98c1d9;
+
+}
+/* pour les animation du tableau  */
+.slacker
+{
+    font-family: 'RocknRoll One', sans-serif;
+    color: #98c1d9;
+    position: relative;
+    top: 100px;
+
+}
+.payment
+{
+    position: relative;
+    top: 600px;
+
+}

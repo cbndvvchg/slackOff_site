@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url("background_about_us.jpg");
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header
+{
+    
+        border-top: 2px solid red;
+        border-bottom: 2px solid red;
+    
+    background-color: #293241;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+
+}
+
+header li
+{
+    display: inline;
+    text-decoration: none;
+    padding-left: 45px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+header li a
+{
+    text-decoration: underline dashed;
+    text-decoration-color: red;
+    color: #e0fbfc;
+    text-decoration: none;
+    transition: .3s ease;
+}
+header li a:hover
+{
+    color: #98c1d9;
+}
+header .login
+{
+    color: #ee6c4d;
+    float: right;
+    margin-right: 5cm;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 120%;
+    position: relative;
+    top: -2px;
+    right: -20px;
+    outline: none;
+    text-decoration: none;
+}
+
+header .login:hover
+{
+    color: #98c1d9;
+
+}
+.login:visited
+{
+    text-decoration: none;
+    color: #e0fbfc;
+}
+.logo
+{
+    width: 180px;
+    float: left;
+    size: 40%;
+    position: relative;
+    top: -5px;
+
+}
+/* pour les animation de la header */
+.meet
+{
+    
+    font-family: 'Karantina', cursive;
+    color: #023e8a;
+    position: relative;
+    top: 50px;
+    font-size: 400%;
+}
+.description
+{
+    color: #023e8a;
+    position: relative;
+    top:   20px;
+    font-size: 200%;
+    font-family: 'Antic Slab', serif;
+    background-color: #e0fbfc ;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    border-radius: 4px;
+}

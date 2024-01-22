@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url("background.jpg");
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+header
+{
+    background-color: #293241;
+    padding: 15px;
+    box-shadow: 0 0 3px black;
+
+}
+
+header li
+{
+    display: inline;
+    text-decoration: none;
+    padding-left: 45px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+header li a
+{
+    color: #e0fbfc;
+    text-decoration: none;
+    transition: .3s ease;
+}
+header li a:hover
+{
+    color: #98c1d9;
+}
+header .login
+{
+    color: #ee6c4d;
+    float: right;
+    margin-right: 5cm;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 120%;
+    position: relative;
+    top: -2px;
+    right: -20px;
+    outline: none;
+    text-decoration: none;
+}
+
+header .login:hover
+{
+    color: #98c1d9;
+
+}
+.login:visited
+{
+    text-decoration: none;
+    color: #e0fbfc;
+}
+.logo
+{
+    width: 180px;
+    float: left;
+    size: 40%;
+    position: relative;
+    top: -5px;
+
+    
+}
+/* pour les animation de la header */
+h1
+{
+    font-family: 'RocknRoll One', sans-serif;
+    position: relative;
+    top: 150px;
+    color:#d3d3d3;
+    font-size: 300%;
+    right: 20px;
+}
+h2
+{
+    font-family: 'Antic Slab', serif;
+    color: #d3d3d3;
+    font-size: 110;
+    position: relative;
+    top: 160px;
+    right: 30px;
+}
+.getstarted
+{
+    color: #e0fbfc;
+    position: relative;
+    top: 4.5cm;
+    right: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+    transition: ease-out 0.3s;
+
+}
+.getstarted:hover
+{
+    color: #ee6c4d;
+    
+}
+.getstarted:visited
+{
+    text-decoration: none;
+
+}
+.getstarted:link
+{
+    text-decoration: none;
+    color: #293241;
+}
